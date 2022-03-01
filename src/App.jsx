@@ -20,9 +20,10 @@ class App extends Component {
 
   render() {
     const { items } = this.state;
-    const {addToStorage} = this.props
+
     const addToCart = (item) => {
       localStorage.setItem("Pizza : " + item.name, 'Price : ' + item.price  );
+      // close()
     };
 
     return (

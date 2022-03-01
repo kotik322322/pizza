@@ -12,11 +12,14 @@ class PizzaItem extends Component {
 
   render() {
     const { name, price, imageUrl, article, color, addToLocalStorage } = this.props;
-    const handleModal = () => {
-      this.setState({ modalCart: true });
+
+    const handleModal = (bool) => {
+      this.setState({ modalCart: bool });
     };
 
 
+
+    
 
     return (
       <div className={styles.PizzaItem}>
@@ -26,15 +29,15 @@ class PizzaItem extends Component {
         <img className={styles.PizzaImg} src={imageUrl} alt="PizzaImg" />
         <p className={styles.PizzaArticle}>{article}</p>
         <p className={styles.PizzaColor}>{color}</p>
+
+
         <Button text="Add To Cart" onClick={() => handleModal(true)} />
         {this.state.modalCart === true && (
           <Modal
             colorForButton="#23EA33"
             style={{ backgroundColor: '#8BFAE3' }}
             closeButton
-            handleClose={() => {
-              this.setState({ modalCart: null });
-            }}
+            handleClose={() => {handleModal(false)}}
             text="Вы действительно хотите положить данный товар в корзину? "
             addToStorage={addToLocalStorage}
           />
