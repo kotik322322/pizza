@@ -1,0 +1,74 @@
+{
+  "pizzas": [
+    {
+      "name": "Пепперони Фреш с перцем",
+      "price": 803,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+      "article": 10,
+      "color": "white"
+    },
+    {
+      "name": "Сырная",
+      "price": 245,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "article": 11,
+      "color": "orange"
+    },
+    {
+      "name": "Цыпленок барбекю",
+      "price": 295,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+      "article": 12,
+      "color": "blue"
+    },
+    {
+      "name": "Кисло-сладкий цыпленок",
+      "price": 275,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "article": 13,
+      "color": "green"
+    },
+    {
+      "name": "Чизбургер-пицца",
+      "price": 14,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "article": 5,
+      "color": "red"
+    },
+    {
+      "name": "Крэйзи пепперони",
+      "price": 580,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+      "article": 15,
+      "color": "black"
+    },
+    {
+      "name": "Пепперони",
+      "price": 675,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+      "article": 16,
+      "color": "orange"
+    },
+    {
+      "name": "Маргарита",
+      "price": 450,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+      "article": 17,
+      "color": "blue"
+    },
+    {
+      "name": "Четыре сезона",
+      "price": 395,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+      "article": 18,
+      "color": "green"
+    },
+    {
+      "name": "Овощи и грибы 🌱",
+      "price": 285,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+      "article": 19,
+      "color": "red"
+    }
+  ]
+}
