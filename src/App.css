@@ -1,0 +1,9 @@
+.App {
+    /* display: flex; */
+}
+
+.app__cart {
+    display: block;
+    margin-left: auto;
+    width: 100%;
+}

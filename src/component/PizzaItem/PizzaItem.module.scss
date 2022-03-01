@@ -1,9 +1,10 @@
 .PizzaItem {
   border: 1px solid #000;
+  border-radius: 10px;
   background-color: #fffcfc;
   padding: 10px;
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 500px;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -23,4 +24,8 @@
 .PizzaArticle {
 }
 .PizzaColor {
+}
+
+.favorite {
+  width: 116px;
 }

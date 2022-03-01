@@ -9,12 +9,12 @@ class Modal extends Component {
   render() {
 
     const {
-      header,
       closeButton,
       text,
       style,
       handleClose,
-      colorForButton
+      addToStorage
+
     } = this.props;
 
     const clickOutside = (e) => {
@@ -26,21 +26,18 @@ class Modal extends Component {
 
 
 
+
     return (
       <div onClick={clickOutside} className={styles.modal}>
         <div style={style} className={styles.modalContainer}>
           {closeButton && <button className={styles.buttonClose} onClick={handleClose} >{'X'}</button>}
 
-
-          <div className="modal-header">
-            <h1 className={styles.headerTitle}>{header}</h1>
-          </div>
           <div className="modal-body">
             <h2 className={styles.modalText}>{text}</h2>
           </div>
 
           <div className={styles.modalFooter} >
-            <Button text={'Okey'} backgroundColor={colorForButton} />
+            <Button text={'Okey'} onClick = {addToStorage}  />
             <Button onClick={() => handleClose()} text={'Cancel'} />
           </div>
 
