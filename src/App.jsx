@@ -21,11 +21,6 @@ class App extends Component {
   render() {
     const { items } = this.state;
 
-    const addToCart = (item) => {
-      localStorage.setItem("Pizza : " + item.name, 'Price : ' + item.price  );
-      // close()
-    };
-
     return (
       <div className="App">
         <div className="app__cart">
@@ -40,8 +35,7 @@ class App extends Component {
             imageUrl={item.imageUrl}
             article={item.article}
             color={item.color}
-            addToLocalStorage={() => addToCart(item)}
-
+            item={item}
           />
         ))}
       </div>
