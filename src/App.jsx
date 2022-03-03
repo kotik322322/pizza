@@ -1,7 +1,4 @@
 import { Component } from 'react';
-import Button from './component/Button/Button';
-import Cart from './component/Cart/Cart';
-import Modal from './component/Modal/Modal';
 import PizzaItem from './component/PizzaItem/PizzaItem';
 import './App.css';
 
@@ -23,10 +20,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="app__cart">
-          <Cart />
-        </div>
-
         {items.map((item) => (
           <PizzaItem
             key={item.name}

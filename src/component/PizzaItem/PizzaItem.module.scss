@@ -1,9 +1,9 @@
 .PizzaItem {
   border: 1px solid #000;
   border-radius: 10px;
-  background-color: #fffcfc;
+  background-color: #fffefc;
   padding: 10px;
-  width: 400px;
+  width: 300px;
   height: 500px;
   margin: 10px;
   display: flex;
@@ -11,9 +11,12 @@
   justify-content: center;
   align-items: center;
 }
-.PizzaName {
-}
+
 .PizzaPrice {
+  font-size: 20px;
+}
+.PizzaName {
+  font-size: 25px;
 }
 
 .PizzaImg {
@@ -22,14 +25,13 @@
 }
 
 .PizzaArticle {
+  font-size: 20px;
+  margin-left: auto;
 }
 .PizzaColor {
 }
 
-// .favorite path  {
-//   fill-opacity : 1;
-// }
 .favorite {
-
-
+  margin-left: auto;
+  margin-bottom: auto;
 }

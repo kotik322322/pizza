@@ -1,126 +1,126 @@
 .modal:before {
-    content: '';
-    background: #000;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-    z-index: 9999;
-    background-color: #312e2e;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-  }
-  
-  .modalContainer {
-    padding-bottom: 10px;
-    border-bottom: 8px solid var(--twitter-background);
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    padding: 20px;
-    width: 900px;
-    margin-left: -450px;   
-  
-    background: #fff;
-    border: 8px solid var(--twitter-background);
-    border-radius: 20px;
-    z-index: 99999;
-    opacity: 1;
-  }
+  content: '';
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: 9999;
+  background-color: #312e2e;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
 
-  .headerTitle {
-    padding: 0 0 20px;
-    margin: 0 auto;
-    text-align: center;
-    color: rgb(5, 164, 213);
-    font-size: 36px;
-  }
+.modalContainer {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  padding: 20px;
+  width: 900px;
+  margin-left: -450px;
 
-  .closeModal {
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    border: 1px solid #000;
-    width: 20px;
-    height: 20px;
-  }
+  background: #fff;
+  border: 8px solid var(--twitter-background);
+  border-radius: 20px;
+  z-index: 99999;
+  opacity: 1;
+}
 
-  .modalContent {
-    width: 100%;
-    height: 200px;
-  }
+.headerTitle {
+  padding: 0 0 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(5, 164, 213);
+  font-size: 36px;
+}
 
-  .modalInner {
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.closeModal {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+}
 
-  .modalText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(5, 164, 213);
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-    color: rgb(5, 164, 213);
-    font-size: 26px;
-    width: 100%;
-    height: 200px;
-  }
+.modalContent {
+  width: 100%;
+  height: 200px;
+}
 
-  .buttonClose {
-    display: flex;
-    margin:0 0 0 auto;
-    text-decoration: none;
-    border: 2px solid #BFE2FF;
-    border-radius: 50px;
-    position: relative;
-    overflow: hidden;
-    font-size: 20px;
-    line-height: 20px;
-    padding: 6px 15px;
-    color: #FFF;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed', Тahoma, sans-serif;
-    background: #337AB7;
-    transition: box-shadow 0.3s, transform 0.3s;
-    cursor: pointer;
+.modalInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(5, 164, 213);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(5, 164, 213);
+  font-size: 26px;
+  width: 100%;
+  height: 200px;
+}
+
+.buttonClose {
+  display: flex;
+  margin: 0 0 0 auto;
+  text-decoration: none;
+  border: 2px solid #bfe2ff;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 6px 15px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', Тahoma, sans-serif;
+  background: #337ab7;
+  transition: box-shadow 0.3s, transform 0.3s;
+  cursor: pointer;
 }
 .buttonClose:hover,
 .buttonClose:active,
 .buttonClose:focus {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
-    color: #FFF;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
 }
 .buttonClose:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(-45deg, transparent, rgba(191, 226, 255, 0.3), transparent);
-    transition: left 0.7s;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-45deg, transparent, rgba(191, 226, 255, 0.3), transparent);
+  transition: left 0.7s;
 }
 .buttonClose:hover:before,
 .buttonClose:active:before,
 .buttonClose:focus:before {
-    left: 100%;
+  left: 100%;
 }
 
-.modalFooter{
+.modalFooter {
   display: flex;
   justify-content: center;
   align-items: center;
